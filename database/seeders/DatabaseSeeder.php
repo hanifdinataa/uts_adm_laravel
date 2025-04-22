@@ -16,13 +16,13 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // menambahkan data random di user
-        /// User::factory(10)->create();
+        User::factory(10)->create();
 
          // menambahkan data random di mahasiswa
-        /// Mahasiswa::factory(50)->create();
+         Mahasiswa::factory(50)->create();
 
         // menambahkan data random untuk dosen
-        /// Dosen::factory(50)->create();
+         Dosen::factory(50)->create();
 
         //  \App\Models\Prodi::create([
         //     'nama'=>'D3 Teknik Komputer',
@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
         //     'nama'=>'D4 ANIMASI'
         // ]);
 
-       //  Prodi::factory(10)->create();
+        Prodi::factory(10)->create();
            Ruangan::factory(10)->create();
         //  User::factory()->create([
         //     'name' => 'Test User',
